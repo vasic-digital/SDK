@@ -1,4 +1,4 @@
-rootProject.name = "Boba"
+rootProject.name = "Boba.SDK"
 
 include ':Toolkit:Main'
 include ':Toolkit:Test'
