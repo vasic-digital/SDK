@@ -1,0 +1,3 @@
+[submodule "Android/Toolkit"]
+	path = Android/Toolkit
+	url = git@github.com:red-elf/Android-Toolkit.git
