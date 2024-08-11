@@ -1,0 +1,14 @@
+rootProject.name = "Boba"
+
+include ':Toolkit:Main'
+include ':Toolkit:Test'
+include ':Toolkit:Echo'
+include ':Toolkit:Access'
+include ':Toolkit:JCommons'
+include ':Toolkit:RootTools'
+include ':Toolkit:RootShell'
+include ':Toolkit:Interprocess'
+include ':Toolkit:CircleImageView'
+include ':Toolkit:FastscrollerAlphabet'
+
+include ':SDK'
