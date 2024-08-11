@@ -1,0 +1,10 @@
+#!/bin/sh
+
+MESSAGE="Auto-commit."
+
+if [ -n "$1" ]; then
+
+  MESSAGE="$1"
+fi
+
+commit "$MESSAGE"

@@ -1,4 +1,4 @@
-![](Android/SDK/src/main/ic_launcher-playstore.png)
+<img src="Android/SDK/src/main/ic_launcher-playstore.png" alt="Boba logo" width="300"/>
 
 # Boba for Android SDK
 
