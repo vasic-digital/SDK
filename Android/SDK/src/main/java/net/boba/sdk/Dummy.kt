@@ -1,4 +1,4 @@
-package net.boba.core.sdk
+package net.boba.sdk
 
 
 class Dummy {

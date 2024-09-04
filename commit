@@ -7,4 +7,5 @@ if [ -n "$1" ]; then
   MESSAGE="$1"
 fi
 
-commit "$MESSAGE"
+git add . && git commit -m "$MESSAGE"
+git push github && git push gitflic && git push gitee && git push && git log -n 1
