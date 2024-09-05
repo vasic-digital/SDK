@@ -1,12 +1,10 @@
-package net.boba.sdk.ipc
+package net.boba.sdk.common.ipc
 
 import com.redelf.commons.interprocess.InterprocessData
 import com.redelf.commons.interprocess.InterprocessError
 import java.util.UUID
 
-interface IPCExchange {
+interface IPCFailure {
 
-    fun getIdentifier(): UUID
-
-    fun getData(): InterprocessData?
+    fun getError(): InterprocessError?
 }
