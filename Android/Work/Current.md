@@ -8,4 +8,4 @@ This document contains the current state of the project.
 - IPC request
 - IPC response
 - IPC error handling
-- IPC UI
+- IPC UI: Override screens, Configuration screen, Landing screen
