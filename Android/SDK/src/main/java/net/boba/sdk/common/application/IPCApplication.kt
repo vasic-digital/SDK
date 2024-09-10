@@ -1,5 +1,6 @@
 package net.boba.sdk.common.application
 
+import com.redelf.commons.extensions.obfuscate
 import com.redelf.commons.interprocess.InterprocessApplication
 import com.redelf.commons.interprocess.InterprocessProcessor
 import net.boba.R
@@ -14,7 +15,7 @@ abstract class IPCApplication : InterprocessApplication(), IPCService {
 
     override fun takeSalt() =
         (getInterprocessPermissionValue() +
-                ".${getInterprocessPermissionValue().hashCode()}").reversed()
+                ".${getInterprocessPermissionValue().hashCode()}").reversed().obfuscate()
 
     override fun getProcessors(): List<InterprocessProcessor> {
 
