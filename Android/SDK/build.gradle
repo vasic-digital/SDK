@@ -4,16 +4,37 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+def fallbackToDefault = !project.hasProperty('interprocess_permission') ||
+        "$interprocess_permission" == "null" || "$interprocess_permission".isEmpty() ||
+        "$interprocess_permission".isBlank()
+
+if (fallbackToDefault) {
+
+    ext {
+
+        interprocess_permission = "net.boba.sdk"
+    }
+}
+
+println("The 'interprocess_permission' is: '$interprocess_permission'")
+
 android {
 
-    namespace 'net.boba.sdk'
     compileSdk 34
+    namespace "${interprocess_permission}"
 
     defaultConfig {
 
         minSdk 28
         consumerProguardFiles "consumer-rules.pro"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+
+                interprocess_permission: interprocess_permission
+        ]
+
+        resValue "string", "interprocess_permission", interprocess_permission
     }
 
     buildTypes {
