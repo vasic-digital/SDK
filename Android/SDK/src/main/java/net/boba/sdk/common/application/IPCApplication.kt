@@ -12,7 +12,9 @@ abstract class IPCApplication : InterprocessApplication(), IPCService {
 
     override fun isProduction() = false
 
-    override fun takeSalt() = "echo_salt"
+    override fun takeSalt() =
+        (getInterprocessPermissionValue() +
+                ".${getInterprocessPermissionValue().hashCode()}").reversed()
 
     override fun getProcessors(): List<InterprocessProcessor> {
 
