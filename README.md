@@ -13,8 +13,8 @@ extensibility is exposed. Client sends the request, Extension acts upon it and r
 
 ## SDK Technical Documentation
 
-SDK Technical Documentation is described [here](Android/Documentation/Main.md).
+SDK Technical Documentation is [here](Android/Documentation/Main.md).
 
 ## Current state of the project
 
-The current state of the SDK and development progress is documented [here](Android/Documentation/Work/Current.md).
+The current state of the SDK and development progress is [here](Android/Documentation/Work/Current.md).
