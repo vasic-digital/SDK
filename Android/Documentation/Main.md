@@ -12,7 +12,7 @@ incorporate the SDK means.
 In order to be able to communicate the Client and the Extension IPC applications have to define
 the Android permissions.
 
-### Defining the application permission(s)
+### Defining the applications permissions
 
 Tbd.
 
