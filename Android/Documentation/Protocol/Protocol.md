@@ -1,14 +1,7 @@
-# Work to be done
+# The IPC SDK Protocol
 
-This document contains the current state of the project.
-
-## TODO(s) and FIXME(s)
-
-- IPC SDK base
-- IPC request
-- IPC response
-- IPC error handling
-- IPC UI: Override screens, Configuration screen, Landing screen
+The IPC SDK Protocol makes possible to extend the Android application with additional functionality 
+dynamically using the IPC communication and 3rd party apps.
 
 ## Protocol specs
 
