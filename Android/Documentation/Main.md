@@ -14,7 +14,32 @@ the Android permissions.
 
 ### Defining the applications permissions
 
-Tbd.
+SDK depends on the [Android Toolkit](https://github.com/red-elf/Android-Toolkit) which is the Git 
+submodule of the SDK. If you clone the SDk repository it is also required to initialize and clone 
+its Git submodule(s). 
+
+To define the permission for the Client or Extension application main (root) `build.gradle` file has 
+to define the `interprocess_permission` property. The following snippet shows example of such configuration 
+which defines the permission of the application and other [Android Toolkit](https://github.com/red-elf/Android-Toolkit) 
+required properties:
+
+```groovy
+buildscript {
+
+    ext {
+
+        kotlin_version = '2.0.0'
+
+        interprocess_permission = "com.example.extensions.hello" // <--- HERE!
+
+        toolkit_version = '2.0.2'
+        toolkit_context = ':Toolkit'
+        toolkit_project_name = 'EXAMPLE'
+    }
+
+    // ... etc.
+}
+```
 
 ## Registering the IPC SDK application
 
