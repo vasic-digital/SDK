@@ -8,8 +8,8 @@ own Android application.
 SDK provides mechanism for application extensibility through the development of IPC 
 Extension applications.
 
-The Client and the Extension application talk to each other using the IPC so the additional 
-extensibility is exposed. Client sends the request, Extension acts upon it and responds.
+The Client and the Extension applications talk to each other using the IPC so the additional 
+extensibility is achieved. Client sends the request, Extension acts upon it and responds.
 
 ## SDK Technical Documentation
 
