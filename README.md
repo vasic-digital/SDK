@@ -3,3 +3,7 @@
 # Boba for Android SDK
 
 Boba for Android SDK
+
+## Current state of the project
+
+The current and progress is documented [here](Android/Work/Current.md).
