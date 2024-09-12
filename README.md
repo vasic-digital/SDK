@@ -11,9 +11,9 @@ Extensions applications.
 The Client and the Extension application talk to each other using the IPC so the additional 
 extensibility is exposed. Client sends the request, Extension acts upon it and responds.
 
-## IPC SDK Protocol
+## SDK Technical Documentation
 
-The communication protocol is described [here](Android/Documentation/Protocol/Protocol.md).
+SDK Technical Documentation is described [here](Android/Documentation/Main.md).
 
 ## Current state of the project
 
