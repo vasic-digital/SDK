@@ -1,9 +1,11 @@
 package net.boba.sdk.common.application
 
 import com.redelf.commons.extensions.obfuscate
+import com.redelf.commons.extensions.wrapToList
 import com.redelf.commons.interprocess.InterprocessApplication
 import com.redelf.commons.interprocess.InterprocessProcessor
 import net.boba.R
+import net.boba.sdk.common.processing.SDKProcessor
 
 abstract class IPCApplication : InterprocessApplication() {
 
@@ -21,8 +23,8 @@ abstract class IPCApplication : InterprocessApplication() {
 
     override fun getProcessors(): List<InterprocessProcessor> {
 
-        // TODO: Add your processors here
+        val ctx = takeContext()
 
-        return listOf()
+        return SDKProcessor(ctx).wrapToList()
     }
 }
