@@ -5,7 +5,7 @@ dynamically using the IPC and the 3rd party apps as the means of the extensibili
 
 The Client application is the main application, and the Extension application is the provider of 
 the additional functionality. Communication goes in both directions and both application have to 
-incorporate the the SDK means.
+incorporate the SDK means.
 
 ## Application Permissions
 
