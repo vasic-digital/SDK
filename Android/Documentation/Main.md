@@ -9,7 +9,7 @@ incorporate the SDK means.
 
 ## Application Permissions
 
-In order to be able to communicate the Client and the Extension SDK IPC applications have to define
+In order to be able to communicate the Client and the Extension IPC applications have to define
 the Android permissions.
 
 ### Defining the application permission(s)
@@ -18,7 +18,7 @@ Tbd.
 
 ## Registering the IPC SDK application
 
-Since the Client and Extension SDK IPC applications must be 'aware' of each other, we have to 
+Since the Client and Extension IPC applications must be 'aware' of each other, we have to 
 'register' them. Reregistration is performed in a couple of simple steps:
 
 - Tbd.
@@ -33,14 +33,14 @@ The following steps represent the communication protocol:
 - Data is processed
 - Result is sent back
 
-### SDK IPC Request
+### IPC Request
 
 Tbd.
 
-#### SDK IPC Request data
+#### IPC Request data
 
 Tbd.
 
-### SDK IPC Response
+### IPC Response
 
 Tbd.
