@@ -2,7 +2,7 @@
 
 # Boba SDK for Android
 
-Boba for Android SDK: Develop IPC extension applications for the `Boba for Android` project or your 
+Develop the IPC extension applications for the `Boba for Android` project or your 
 own Android application. 
 
 SDK provides mechanism for application extensibility through the development of IPC 

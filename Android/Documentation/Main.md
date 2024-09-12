@@ -1,7 +1,7 @@
 # IPC SDK Technical Documentation
 
 The IPC SDK makes possible to extend the Android application with the additional functionality 
-dynamically using the IPC communication and the 3rd party apps as the means of the extensibility.
+dynamically using the IPC and the 3rd party apps as the means of the extensibility.
 
 The Client application is the main application, and the Extension application is the provider of 
 the additional functionality. Communication goes in both directions and both application have to 
@@ -23,7 +23,7 @@ Since the Client and Extension SDK IPC applications must be 'aware' of each othe
 
 - Tbd.
 
-## The IPC Communication Protocol
+## The IPC Protocol
 
 The following steps represent the communication protocol:
 
