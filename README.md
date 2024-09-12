@@ -1,6 +1,6 @@
 <img src="Android/SDK/src/main/ic_launcher-playstore.png" alt="Boba logo" width="300"/>
 
-# Boba for Android SDK
+# Boba SDK for Android
 
 Boba for Android SDK: Develop IPC extension applications for the `Boba for Android` project or your 
 own Android application. 
