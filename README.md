@@ -3,7 +3,13 @@
 # Boba for Android SDK
 
 Boba for Android SDK: Develop IPC extension applications for the `Boba for Android` project or your 
-own. SDK provides mechanism for application extensibility through the development of IPC app extensions.
+own Android application. 
+
+SDK provides mechanism for application extensibility through the development of IPC 
+Extensions applications.
+
+The Client and the Extension application talk to each other using the IPC so the additional 
+extensibility is exposed. Client sends the request, Extension acts upon it and responds.
 
 ## IPC SDK Protocol
 
