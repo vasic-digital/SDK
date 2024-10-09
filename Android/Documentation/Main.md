@@ -93,6 +93,8 @@ Tbd.
   "platform": "none / all / macos / windows / ps / ps2 / ps3 / ps4 / nsw / linux / tec_tbd",
   "thumb": "string",
   "cover": "string",
-  "large_cover": "string"
+  "large_cover": "string",
+  "protected": false,
+  "expires": "date_time"
 }
 ```
