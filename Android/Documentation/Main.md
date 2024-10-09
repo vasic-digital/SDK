@@ -88,6 +88,7 @@ Tbd.
   "date_modified": "date_time",
   "version": 1,
   "description": "string",
+  "short_description": "string",
   "media_type": "music / video / application / game / document / file / etc_tbd",
   "media_subtype": "mp3 / flac / pdf / epub / etc_tbd",
   "platform": "none / all / macos / windows / ps / ps2 / ps3 / ps4 / nsw / linux / tec_tbd",
