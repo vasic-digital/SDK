@@ -77,10 +77,10 @@ Tbd.
 
 ```json
 {
-  "type": "http / magnet / torrent / etc.",
+  "type": "http / magnet / torrent / etc",
   "content": [
-    "url / magnet link / torrent file / etc.",
-    "url / magnet link / torrent file / etc.",
+    "url / magnet link / torrent file / etc",
+    "url / magnet link / torrent file / etc",
     "..."
   ],
   "author": "string",
@@ -91,7 +91,7 @@ Tbd.
   "short_description": "string",
   "media_type": "music / video / application / game / document / file / etc_tbd",
   "media_subtype": "mp3 / flac / pdf / epub / etc_tbd",
-  "platform": "none / all / macos / windows / ps / ps2 / ps3 / ps4 / nsw / linux / tec_tbd",
+  "platform": "none / all / macos / windows / ps / ps2 / ps3 / ps4 / nsw / linux / etc_tbd",
   "thumb": "string",
   "cover": "string",
   "large_cover": "string",
