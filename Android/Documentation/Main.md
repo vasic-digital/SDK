@@ -75,6 +75,17 @@ Tbd.
 - Served as structured JSON (with custom extension .boba) registered by the SDK / Application
 - The following properties will be contained:
 
-```
-- Tbd.
+```json
+{
+  "type": "http / magnet / torrent / etc.",
+  "content": [
+    "url / magnet link / torrent file / etc.",
+    "url / magnet link / torrent file / etc.",
+    "..."
+  ],
+  "author": "string",
+  "date_created": "date_time",
+  "date_modified": "date_time",
+  "version": 1
+}
 ```
