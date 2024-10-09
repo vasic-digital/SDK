@@ -69,3 +69,12 @@ Tbd.
 ### IPC Response
 
 Tbd.
+
+## Application file data format
+
+- Served as structured JSON (with custom extension .boba) registered by the SDK / Application
+- The following properties will be contained:
+
+```
+- Tbd.
+```
