@@ -100,3 +100,10 @@ Tbd.
   "expires": "date_time"
 }
 ```
+
+## Supported content
+
+- HTTP urls
+- Torrent / Magnet
+- UseNext
+- Tbd.
