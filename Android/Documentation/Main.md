@@ -77,6 +77,7 @@ Tbd.
 
 ```json
 {
+  "file_version": 1,
   "type": "http / magnet / torrent / etc",
   "content": [
     "url / magnet link / torrent file / etc",
