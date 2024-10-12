@@ -78,7 +78,8 @@ Tbd.
 ```json
 {
   "file_version": 1,
-  "type": "http / magnet / torrent / etc",
+  "protocol": "http / magnet / torrent / etc",
+  "protocol_information": "string",
   "content": [
     "url / magnet link / torrent file / etc",
     "url / magnet link / torrent file / etc",
