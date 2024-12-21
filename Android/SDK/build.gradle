@@ -20,7 +20,7 @@ println("The 'interprocess_permission' is: '$interprocess_permission'")
 
 android {
 
-    compileSdk 34
+    compileSdk 35
     namespace "${interprocess_permission}"
 
     defaultConfig {
