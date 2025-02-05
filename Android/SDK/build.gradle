@@ -35,6 +35,8 @@ android {
         ]
 
         resValue "string", "interprocess_permission", interprocess_permission
+
+        multiDexEnabled true
     }
 
     buildTypes {
