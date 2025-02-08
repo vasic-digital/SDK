@@ -15,7 +15,7 @@ buildscript {
     repositories {
 
         mavenLocal()
-        maven { url 'https://mirror.msu.ru/nexus/content/repositories/central/' }
+        
         maven { url 'https://repo.huaweicloud.com/repository/maven/' }
         maven { url 'https://maven.aliyun.com/repository/central' }
         maven { url 'https://maven.aliyun.com/repository/google' }
@@ -42,7 +42,7 @@ allprojects {
     repositories {
 
         mavenLocal()
-        maven { url 'https://mirror.msu.ru/nexus/content/repositories/central/' }
+        
         maven { url 'https://repo.huaweicloud.com/repository/maven/' }
         maven { url 'https://maven.aliyun.com/repository/central' }
         maven { url 'https://maven.aliyun.com/repository/google' }
