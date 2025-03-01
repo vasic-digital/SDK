@@ -1,0 +1,19 @@
+plugins {
+
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.9.0'
+}
+
+rootProject.name = "SDK.Boba"
+
+include ':Toolkit:Main'
+include ':Toolkit:Test'
+include ':Toolkit:Echo'
+include ':Toolkit:Access'
+include ':Toolkit:JCommons'
+include ':Toolkit:RootTools'
+include ':Toolkit:RootShell'
+include ':Toolkit:Interprocess'
+include ':Toolkit:CircleImageView'
+include ':Toolkit:FastscrollerAlphabet'
+
+include ':Boba'
