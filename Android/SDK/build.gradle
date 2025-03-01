@@ -2,7 +2,7 @@ plugins {
 
     id 'com.android.library'
     id 'kotlin-android'
-    id 'kotlin-kapt'
+    id("com.google.devtools.ksp") version "2.1.0-1.0.29"
 }
 
 def fallbackToDefault = !project.hasProperty('interprocess_permission') ||
@@ -62,6 +62,7 @@ android {
 
         
     }
+
     packagingOptions {
 
         jniLibs {
@@ -75,6 +76,13 @@ android {
         }
     }
 
+    sourceSets {
+
+        main {
+
+            java.srcDirs += "build/generated/ksp"
+        }
+    }
 }
 
 dependencies {
