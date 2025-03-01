@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export UPSTREAMABLE_REPOSITORY="git@github.com:boba-net/Boba-for-Android-SDK.git"
+export UPSTREAMABLE_REPOSITORY="git@github.com:vasic-digital/SDK.git"
