@@ -28,7 +28,7 @@ buildscript {
 
     ext {
 
-        kotlin_version = '2.1.10'
+        kotlin_version = '2.2.0'
 
         interprocess_permission = "com.example.extensions.hello" // <--- HERE!
 
