@@ -32,7 +32,7 @@ buildscript {
 
         interprocess_permission = "com.example.extensions.hello" // <--- HERE!
 
-        toolkit_version = '2.0.2'
+        toolkit_version = '2.0.3'
         toolkit_context = ':Toolkit'
         toolkit_project_name = 'EXAMPLE'
     }
