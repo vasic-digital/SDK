@@ -1,6 +1,5 @@
 package net.boba.sdk.common.application
 
-import com.redelf.commons.extensions.obfuscate
 import com.redelf.commons.extensions.wrapToList
 import com.redelf.commons.interprocess.InterprocessApplication
 import com.redelf.commons.interprocess.InterprocessProcessor
